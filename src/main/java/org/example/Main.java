@@ -8,7 +8,7 @@ public class Main {
     private static Random random = new Random();
     public static void main(String[] args) {
 
-        ShellSorter shellSorter = new ShellSorter();
+        MergeSorter mergeSorter = new MergeSorter();
 
         ArrayList<Integer> inputList = new ArrayList<>();
 
@@ -18,7 +18,7 @@ public class Main {
 
         System.out.println("Початковий масив: " + inputList);
 
-        ArrayList<Integer> sortedList = shellSorter.sort(inputList);
+        ArrayList<Integer> sortedList = mergeSorter.sort(inputList);
 
         System.out.println("Відсортований масив: " + sortedList);
     }
